@@ -1,0 +1,48 @@
+:root {
+  --background-clr-hover: #1abc9c;
+}
+
+.algorithmInputContainer {
+  height: 4rem;
+  position: relative;
+  cursor: pointer;
+  transition: 0.25s all ease-in;
+  border-radius: .5rem;
+}
+
+.algorithmInputContainer:hover {
+  background-color: var(--background-clr-hover);
+}
+
+.algorithmInputLabel {
+  width: 100%;
+  font-size: var(--normal-text-fs);
+  color: var(--text-clr);
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.algorithmInputSelect {
+  min-width: 22rem;
+  padding: 3px 4px;
+  position: absolute;
+  top: 6.5rem;
+  left: 0rem;
+  font-size: var(--normal-text-fs);
+  background-color: var(--police-blue);
+  border: none;
+  outline: none;
+  color: var(--text-clr);
+  border-radius: .5rem;
+}
+
+.algorithmInputSelect option {
+  padding: 6px 9px;
+  transition: 0.25 all ease-in;
+}
+
+.algorithmInputSelect option:hover {
+  background-color: var(--background-clr-hover);
+}

@@ -1,0 +1,18 @@
+.rangeInputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.rangeInputLabel {
+  /* width: 14rem; */
+  color: var(--text-clr);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.rangeInput {
+  margin: 0;
+}

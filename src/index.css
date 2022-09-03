@@ -1,3 +1,20 @@
+html { font-size: 62.5%; }
+
+:root {
+  --black: #000;
+  --white: #FFFFFF;
+  --police-blue : #34495E;
+  --light-sea-green: #1abc9c;
+  --red: red;
+
+  --border: 1px solid black;
+  --visualizer-container-bg-clr: #FFFFFF;
+  --control-group-bg-clr: #34495E;
+  --bar-content-clr: #FFFFFF;
+  --text-clr: #FFFFFF;
+  --normal-text-fs: 1.75rem;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
